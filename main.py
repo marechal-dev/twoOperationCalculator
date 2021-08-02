@@ -75,13 +75,6 @@ calc.sum()
 elapsed_time = timeit.timeit(case, setup, number=1)
 print(f'Calculated in {elapsed_time:.10f} seconds')
 
-case = """
-calc = Calculator('11111111975', '11111111345')
-calc.sum()
-"""
-elapsed_time = timeit.timeit(case, setup, number=1)
-print(f'Calculated in {elapsed_time:.10f} seconds')
-
 # Multiplication Test Cases
 case = """
 calc = Calculator('1', '1')
@@ -152,7 +145,6 @@ calc.karatsuba()
 """
 elapsed_time = timeit.timeit(case, setup, number=1)
 print(f'Calculated in {elapsed_time:.10f} seconds')
-
 
 case = """
 calc = Calculator('11111111975', '11111111345')
