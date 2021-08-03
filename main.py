@@ -75,6 +75,8 @@ calc.sum()
 elapsed_time = timeit.timeit(case, setup, number=1)
 print(f'Calculated in {elapsed_time:.10f} seconds')
 
+print('\n')
+
 # Multiplication Test Cases
 case = """
 calc = Calculator('1', '1')
